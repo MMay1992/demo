@@ -2,41 +2,79 @@
    "statusCode":"000",
    "message":"Success",
    "data":{
-      "homeTypeList":[
-         {
-            "id":"001",
-            "titleName":"now showing",
-            "items":[
-               {
-                  "homeId":"001",
-                  "id":"001",
-                  "titleName":"PEE-NAK 2",
-                  "dateShowTime":"2020-02-20",
-                  "typeShow":"น13+",
-                  "movieType":"Comedy/Horror",
-                  "timeShow":"1 hrs 54 mins",
-                  "imageUrl":"",
-                  "urlTrailer":"",
-                  "information":[
-                     {
-                        "id":"01",
-                        "titleName":"director",
-                        "description":"ไมค์-ภณธฤต โชติกฤษฎาโสภณ"
-                     },
-                     {
-                        "id":"02",
-                        "titleName":"cast",
-                        "description":"ออกัส-วชิรวิชญ์ ไพศาลกุลวงศ์, มีน-พีรวิชญ์"
-                     },
-                     {
-                        "id":"03",
-                        "titleName":"synopsis",
-                        "description":"Monk Balloon and Monk First secretly leave the monkhood."
-                     }
-                  ]
-               }
-            ]
-         }
-      ]
+      "showing":{
+         "id":"001",
+         "titleName":"now showing",
+         "items":[
+            {
+               "homeId":"001",
+               "id":"001",
+               "titleName":"PEE-NAK 2",
+               "dateShowTime":"2020-02-20",
+               "typeShow":"น13+",
+               "movieType":"Comedy/Horror",
+               "timeShow":"1 hrs 54 mins",
+               "imageUrl":"",
+               "urlTrailer":"",
+               "information":[
+                  {
+                     "id":"01",
+                     "titleName":"director",
+                     "description":"ไมค์-ภณธฤต โชติกฤษฎาโสภณ"
+                  },
+                  {
+                     "id":"02",
+                     "titleName":"cast",
+                     "description":"ออกัส-วชิรวิชญ์ ไพศาลกุลวงศ์, มีน-พีรวิชญ์"
+                  },
+                  {
+                     "id":"03",
+                     "titleName":"synopsis",
+                     "description":"Monk Balloon and Monk First secretly leave the monkhood."
+                  }
+               ]
+            }
+         ]
+      },
+      "coming":{
+         "id":"002",
+         "titleName":"coming soon",
+         "group":[
+            {
+               "id":"001",
+               "titleName":"february 2020",
+               "items":[
+                  {
+                     "homeId":"002",
+                     "id":"001",
+                     "titleName":"Sonic the Hedgehog",
+                     "dateShowTime":"2020-02-27",
+                     "typeShow":"ทป.",
+                     "movieType":"Action/Adventure/Animation",
+                     "timeShow":"1 hrs 39 mins",
+                     "imageUrl":"",
+                     "urlTrailer":"",
+                     "information":[
+                        {
+                           "id":"01",
+                           "titleName":"director",
+                           "description":"Jeff Fowler"
+                        },
+                        {
+                           "id":"02",
+                           "titleName":"cast",
+                           "description":"Jim Carrey, James Marsden, Ben Schwartz"
+                        },
+                        {
+                           "id":"03",
+                           "titleName":"synopsis",
+                           "description":"Tom Wachowski, a San Francisco Police Department officer-turned-newly appointed"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
    }
 }
